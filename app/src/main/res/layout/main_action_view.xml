@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.toro.helper.view.MainActionBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_action_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/action_bar_height"
+    android:background="@color/colorPrimary"
+    >
+
+    <TextView
+        android:id="@+id/action_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/action_title_text_size"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/action_bar_image_height"
+        android:layout_height="@dimen/action_bar_image_height"
+        android:scaleType="fitCenter"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/horizontal_margin"
+        android:id="@+id/action_right_img"
+        />
+
+    <TextView
+        android:id="@+id/action_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/horizontal_margin"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/action_title_text_size"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/horizontal_margin"
+        android:id="@+id/action_left_img"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/action_bar_image_height"
+        android:layout_height="@dimen/action_bar_image_height"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="@dimen/horizontal_margin_m"
+        android:layout_toLeftOf="@+id/action_right_img"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/horizontal_margin"
+        android:id="@+id/action_right_add_img"
+        android:visibility="gone"
+        />
+
+</com.toro.helper.view.MainActionBar>

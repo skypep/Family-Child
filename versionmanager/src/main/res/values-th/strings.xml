@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">VersionCheckLib</string>
+    <string name="versionchecklib_confirm">การยืนยัน</string>
+    <string name="versionchecklib_cancel">การยกเลิก</string>
+    <string name="versionchecklib_retry">พยายามอีกครั้ง</string>
+    <string name="versionchecklib_download_fail_retry">การดาวน์โหลดล้มเหลวจะลองใหม่อีกครั้งหรือไม่？</string>
+    <string name="versionchecklib_download_finish">คลิกการติดตั้งการดาวน์โหลดเสร็จสมบูรณ์</string>
+    <string name="versionchecklib_downloading">กำลังดาวน์โหลด . . . . . . .</string>
+    <string name="versionchecklib_check_new_version">ตรวจสอบเวอร์ชันใหม่</string>
+    <string name="versionchecklib_download_progress">ความคืบหน้าของการดาวน์โหลด :%d%%/100%%</string>
+    <string name="versionchecklib_download_fail">การดาวน์โหลดล้มเหลวคลิกอีกครั้ง</string>
+    <string name="versionchecklib_progress">%d/100</string>
+    <string name="versionchecklib_write_permission_deny">ดาวน์โหลดและติดตั้งแพคเกจที่ต้องอ่านและเขียนสิทธิ์ของแฟ้ม</string>
+    <string name="versionchecklib_download_apkname">%s.apk</string>
+</resources>

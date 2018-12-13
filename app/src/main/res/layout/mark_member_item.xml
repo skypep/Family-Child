@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/member_item"
+    android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <RelativeLayout
+        android:layout_width="@dimen/photo_list_head_photo_size_m"
+        android:layout_height="@dimen/photo_list_head_photo_size_m">
+
+        <com.toro.helper.view.RoundnessImageView
+            android:id="@+id/head_img"
+            android:layout_width="@dimen/photo_list_head_photo_size_m"
+            android:layout_height="@dimen/photo_list_head_photo_size_m"
+            android:scaleType="fitCenter"
+            />
+
+        <ImageView
+            android:id="@+id/selected_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:scaleType="fitCenter"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/selected_icon"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="#C0C0C0"
+        android:textSize="@dimen/action_title_text_size"
+        />
+
+
+</LinearLayout>

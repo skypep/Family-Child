@@ -1,0 +1,254 @@
+<resources>
+    <string name="app_name">陪伴助手</string>
+    <string name="app_copy_right">版权所有@ 深圳市小达人网络科技有限公司 2018</string>
+
+    <string name="main_tab_photo_text">家庭相册</string>
+    <string name="main_tab_helper_text">助手</string>
+    <string name="main_tab_market_text">夕阳红商城</string>
+    <string name="main_tab_me_text">我的</string>
+
+    <string name="main_market_title">商城</string>
+    <string name="login_quick_login">快捷登陆</string>
+    <string name="login_register">注册</string>
+    <string name="login_welcom">Hello!欢迎使用</string>
+    <string name="login_forget_pwd">忘记密码?</string>
+    <string name="forget_pwd">忘记密码</string>
+    <string name="login_submit">登陆</string>
+    <string name="phone_number_hint">手机号码</string>
+    <string name="name_hint">姓名</string>
+    <string name="login_pwd_hint">密码</string>
+    <string name="s_code">验证码</string>
+    <string name="get_s_code">获取验证码</string>
+    <string name="reget_s_code">重新获取</string>
+    <string name="next_step">下一步</string>
+    <string name="get_s_code_format_time">%1$d秒后重新获取</string>
+    <string name="finish">完成</string>
+    <string name="confirm_pwd">确认密码</string>
+    <string name="setting_pwd">设置密码</string>
+    <string name="please_input_phone">请输入手机号码</string>
+    <string name="unknow_error">未知错误</string>
+    <string name="scode_error">验证码错误</string>
+    <string name="pwd_confirm_erro">两次密码不一致</string>
+    <string name="loging">正在登陆...</string>
+    <string name="registing">正在注册...</string>
+    <string name="submiting">正在提交...</string>
+    <string name="submit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="choose_photo_from_album">从相册中选择</string>
+    <string name="take_photo_by_camera">拍照上传</string>
+    <string name="no_permissions_alert">没有权限进行此操作</string>
+    <string name="show_for_who">\@给谁看</string>
+    <string name="family_menber_is_empty">您还没有添加家庭成员</string>
+    <string name="issue">发布</string>
+    <string name="upload_photo">上传照片</string>
+    <string name="upload_progress_text_format">正在提交(%1$s)</string>
+    <string name="upload_finish_submit_progress_text">提交完成，正在发布</string>
+    <string name="submit_sucsses">提交成功</string>
+    <string name="photo_is_empty">提交的照片不能为空</string>
+    <string name="submit_failed">提交失败</string>
+    <string name="empty_photo_hint">还没有照片哦!</string>
+    <string name="empty_family_hint">家庭成员为空哦!</string>
+    <string name="add_family_from_contact">从通讯录添加</string>
+    <string name="add_family_from_edit">手动添加</string>
+    <string name="confirm">确认</string>
+    <string name="fix_head">修改头像</string>
+    <string name="add_head">添加头像</string>
+    <string name="create_new_member">添加</string>
+    <string name="edit_member">编辑</string>
+    <string name="create_new_member_sucsses">添加成功</string>
+    <string name="create_new_member_failed">添加失败</string>
+
+    <string name="status_accepted">已接受</string>
+    <string name="status_wait_me_agree">新申请</string>
+    <string name="status_wait_other_agree">待接受</string>
+    <string name="status_unknow">未知</string>
+    <string name="agreen">同意</string>
+    <string name="un_agreen">不同意</string>
+
+    <string name="nick_name">昵称</string>
+    <string name="have_no_nick_name">暂无昵称</string>
+    <string name="family_member_manager">家庭成员管理</string>
+    <string name="my_family_photo">我的照片</string>
+    <string name="sms_mode">短信模式</string>
+    <string name="setting">设置</string>
+    <string name="edit_personal_details">修改个人信息</string>
+    <string name="user_account">注册账号</string>
+    <string name="upload_head_progress_text_format">正在上传头像(%1$s)</string>
+    <string name="upload_head_finish_submit_progress_text">上传完成，正在提交</string>
+
+    <string name="save_photo_to_disc">保存至本地</string>
+    <string name="save_photo_to_gallery">保存至相册</string>
+    <string name="save_photo_sucsses_format">已保存至(%1$s)</string>
+    <string name="save_photo_failed">保存失败</string>
+    <string name="save_photo_to_gallery_sucsses">已保存至相册</string>
+
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="delete_failed">操作失败</string>
+    <string name="setting_wifi_connect">在Wifi网络下收发图片</string>
+    <string name="setting_sound_hint">家庭相册通知提示音</string>
+    <string name="about_app">关于陪伴助手</string>
+    <string name="login_out">退出当前账号</string>
+
+    <string name="action_menu_health">查看健康</string>
+    <string name="action_menu_location">远程定位</string>
+    <string name="action_menu_call">拨打电话</string>
+    <string name="action_menu_helper">远程协助</string>
+    <string name="open_map_error">打开地图失败</string>
+
+    <string name="map_action_call">拨打电话</string>
+    <string name="map_action_navigation">导航</string>
+    <string name="map_action_safeguard">安全防护</string>
+    <string name="map_action_trac">行为轨迹</string>
+    <string name="please_install_map">请安装地图软件</string>
+    <string name="open_map_failed">地图打开失败</string>
+    <string name="call_dialog_title">是否拨打</string>
+    <string name="call_dialog_yes">是</string>
+    <string name="call_dialog_no">否</string>
+    <string name="need_setting_home_location">您需要设置家的位置后方可使用此功能</string>
+    <string name="setting_home_location">设置位置</string>
+    <string name="safeguard_setting">防护设置</string>
+    <string name="save">保存</string>
+    <string name="safeguard_location">防护位置</string>
+    <string name="safeguard_rect">防护范围</string>
+    <string name="home_location_empty">还没设置家的位置</string>
+    <string name="home_location_unknow">未知位置</string>
+    <string name="radius_500">500米</string>
+    <string name="radius_1000">1000米</string>
+    <string name="radius_1500">15000</string>
+    <string name="health_data">健康数据</string>
+    <string name="member_is_not_old_man">对方不是老年端，不允许此操作</string>
+    <string name="luban_image_error">图片压缩异常</string>
+    <string name="permission_failed">您拒绝了必要的权限，应用即将退出</string>
+
+    <string name="location_refresh_failed">位置刷新失败</string>
+    <string name="location_refresh_failed_safeguard">位置刷新失败,此功能不可用</string>
+    <string name="coerce_sigin_out">您的账号在另外的设备登陆，您被强制下线</string>
+    <string name="active">激活</string>
+    <string name="need_wifi_photo">要在wifi下才能查看照片哦!!!</string>
+    <string name="map_search_hint">请输入关键字</string>
+    <string name="location_error">定位失败</string>
+    <string name="search_empty">无搜索结果</string>
+    <string name="loading">正在加载...</string>
+    <string name="safeguard_update_failed">配置更新失败,请检查网络环境</string>
+
+    <string-array name="calendar_week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+    <string name="date_time_year">年</string>
+    <string name="date_time_mouth">月</string>
+    <string name="date_time_day">日</string>
+    <string name="date_time_week">星期</string>
+
+    <string name="number_0">零</string>
+    <string name="number_1">一</string>
+    <string name="number_2">二</string>
+    <string name="number_3">三</string>
+    <string name="number_4">四</string>
+    <string name="number_5">五</string>
+    <string name="number_6">六</string>
+    <string name="number_7">七</string>
+    <string name="number_8">八</string>
+    <string name="number_9">九</string>
+
+    <string name="privacy_policy">陪伴助手隐私条款\n
+生效日期：2018 年 1 月 1 日\n
+深圳市小达人科技有限公司（以下简称“小达人”）重视本公司网站、产品及服务之用户的隐私，并且尽商业上合理的一切努力保护这些隐私。我们承诺将按业界成熟的安全标准，采取相应的安全保护措施来保护您的个人信息。\n
+本隐私条款为小达人服务条款的一部分，并适用于您使用xxxxxx（以下简称“小达人网站”）、使用或购买我们开发或运营的软件（包括但不限于“陪伴助手”）、产品和服务，或与小达人员工交流的过程中我们获得的信息。\n
+请阅读下文以详细了解我们收集何种信息、我们如何处理这些信息以及我们可能如何使用这些信息。您的下载、安装、获取或使用陪伴助手软件，注册或登录等行为代表您阅读并同意本隐私条款的约束，包括小达人对本隐私条款随时所做的任何修改，您同意我们在遵守此政策以及任何适用的法律的前提下，收集、使用和披露您的个人信息。如果您不同意接受本隐私条款或小达人对本隐私条款所做的任何修改，您应立即停止使用小达人服务、关闭帐户并卸载小达人开发及运营的软件。\n
+信息收集\n
+陪伴助手软件是以连接子女与父母情感为核心，打通老人及子女沟通障碍以及帮助子女了解老人健康等信息的软件。这意味着，您可以在陪伴助手中输入、上传或存储符合法律法规及其他适用规范的要求的图像和数据。\n
+鉴于此，我们需要收集某些必要的个人信息，以创建和支持您的陪伴助手帐户、向您提供方便而又个性化的软件服务、以及改进我们产品的功能和可用性。同时掌握这些个人信息也使我们能够向您发送产品公告、软件更新和特价优惠信息。陪伴助手的注册用户可以登录陪伴助手软件访问陪伴助手帐户信息页面并点击“设置”链接，随时查看并修改其个人信息。未注册用户也可以使用部分陪伴助手网站及服务，在此情况下，我们不会收集未注册用户的个人信息。\n
+如果您不同意提供全部或部分个人信息，您将无法使用陪伴助手的全部或部分功能和服务，或无法获得更个性化的功能，或无法参加某些活动，或无法收到我们的通知等。\n
+通常情况下，陪伴助手会收集并获取下列类型的信息：\n
+1.与个人身份无关的信息\n
+诸如记录使用陪伴助手服务的每个用户的来源途径、访问顺序、软件版本等信息。\n
+2.与个人身份有关的信息\n
+有关使用陪伴助手服务的每个用户的个人身份信息。包括但不限于：\n
+o	基本用户信息。为了充分利用陪伴助手服务以及任何可下载的软件产品，您需要创建一个陪伴助手帐户。这也将允许陪伴助手向您提供更加个性化和便利的服务。为了开立您的帐户并处理付款，我们会收集并获取基本信息及您选择添加到您个人资料中的信息，比如您的姓名、邮件地址、帐单地址、通讯地址、联系电话、发票信息、信用卡卡号等其他有关付款的信息，这取决于您是否购买陪伴助手商城中的商品。\n
+o	日志数据。当您使用陪伴助手时，我们收集数据以了解您和他人访问和使用服务的状况，同时收集您的操作信息（包括帮助老人购买商品等）。收集的数据包括 cookies 的使用、跟踪像素和类似的分析技术（下文将对Cookies有更全面的阐述）。此等信息将帮助我们为您提供服务，了解您如何使用服务，从而为您提供更有用的服务。\n
+o	位置信息。 我们收集您用于连接到该服务的IP地址，以及（如果您选择了共享）您的移动设备的位置信息。 这有助于我们就您的服务本地化，并根据您的位置设置，让我们向您显示您的帐户可访问的相关内容。\n
+o	设备信息。 我们收集您连接到服务的设备数量和设备类型的相关信息，以及有关这些设备操作系统的信息（例如iOS，Android，Windows，Mac等），以确保服务达到您的需求。\n
+o	其他信息。显示您和我们的某一个业务合作伙伴或促销活动的关联性的非个人身份识别信息（如适用）。\n
+我们可能会将您的使用信息与来自我们合作伙伴和其他第三方的数据相关联，以了解您的需求，并为您提供更好的使用体验。\n
+信息使用\n
+小达人致力于保护您的信息隐私。我们通过收集、获取及使用上述信息，以提供/维护以及提升我们的软件和服务、提供解决问题的方案、提供客户支持等。描述如下：\n
+1.通过接受本隐私条款，您明确同意通过电子邮件或手机短信从小达人收到有关陪伴助手或我们的业务合作伙伴的产品或服务的信息。您也可以随时点击位于您收到的电子邮件底部的“取消订阅”链接（针对电子邮件）或回复退订短信（针对手机短信）退出我们的营销通信。但即使您已经取消订阅，您仍会收到与服务相关以及帐户相关的信息。\n
+2.此外，如果某人使用“帮助亲人”，以与您的陪伴助手帐户没有关联的电子邮件地址或电话号码或通过与您的陪伴助手帐户没有连接的社交媒体网站与您联系，小达人将使用该联络方法代表发送方与您联系。\n
+3.如果您使用两步验证登陆您的陪伴助手帐户，根据您所选择的验证方式，我们可能会选择第三方服务商向您提供的号码以短信的形式发送验证码。\n
+4.您可以随时选择不再参与我们提供的服务和/或删除您在陪伴助手内发布的信息和资料。如果您注销帐户或删除任何应用内的内容，您或访问服务的其他人将无法再访问该等信息，但是由于电子设备的运行和持续数据备份及存档特性，该等信息的残余副本可能继续存在或保留于您曾使用过的客户端上一段时间，请您安全使用相关设备。\n
+5.同时，我们采用多项技术来帮助您获得最好的服务。我们的系统会自动分析数据，以强化陪伴助手的功能和不断改进为您提供的服务，而无需用真人查看您的信息内容（但为了排除故障以及提供用户支持的情形除外）。这可能包括：\n
+o	便于当您进行帐户搜索时，您可以找到所需的信息；\n
+o	在特定的时间或地点，显示与您如何使用服务或者能够怎样使用服务最相关的信息;\n
+o	根据您存储的信息，为您提出相关的操作建议；\n
+o	为您推荐相关的陪伴助手产品或者服务功能，帮助您把陪伴助手的作用发挥到极致；\n
+o	为保护您的帐户及服务功能，我们的系统可能会分析您从陪伴助手帐户发送以及接收的邮件等内容，从而删除垃圾邮件、恶意邮件及排除其他安全隐患。如果我们确信该内容中包含有侵害到服务条款的信息，我们可能会依照收件箱的垃圾邮件过滤器功能，阻止传输存在问题的信息或禁止其共享；\n
+o	为了排除故障以及提供用户支持，我们的客户支持团队可能需要访问您的信息，例如您帐户的邮箱地址，电话号码以及您正在使用的陪伴助手应用程序信息，并遵守相关保护条款。\n
+请阅读我们的数据使用和第三方应用授权文章，以更多了解我们如何收集及使用您的信息。\n
+当我们要将信息用于本隐私条款未载明的其他用途时，会事先征求您的同意。当我们要将给予特定目的收集的信息用于其他目的时，亦会事先征求您的同意。\n
+公开信息\n
+如果陪伴助手软件允许您在我公司网站的公开区域或向任何其他网站或接收者发布个人或其他敏感信息，则您应当确保该信息符合法律法规及其他适用规范的要求，并谨慎考虑是否发布该信息。如果您选择发布的任何个人信息被公开或使用，小达人概不负责。\n
+对第三方的信息披露\n
+当您在陪伴助手网站上访问或发布信息时，即表示您允许陪伴助手为提供陪伴助手服务而记录、使用该等信息并对其采取其他行动（按适用法律要求和/或如服务条款所述）。我们将对该等信息严格保密。我们不会与他人分享这些信息，亦不会将其出售、出租或以其他方式分发给他人（按照本隐私条款之规定披露的除外）。但下列情况下，可以与陪伴助手外部人士分享您的信息：\n
+•	我们已征得您明示同意；\n
+•	为了提供陪伴助手的服务、完成支付交易以及满足您的产品或服务要求（包括销售、交付和支援），我们可能会与代表我们处理数据的第三方服务提供商分享您的信息，这些服务提供商仅已获授权在提供服务所必需的范围内使用您的个人信息；\n
+•	您明确要求获得来自陪伴助手业务合作伙伴的信息，而在这种情况下，收集个人信息者的身份以及所适用的隐私声明，将会在收集信息时有明确表示；\n
+•	我们认为为了履行我们的法定义务或为了调查、预防非法活动、涉嫌诈骗行为、对人身或财产的潜在威胁，或对该等情形采取行动，有必要向司法机关或其他有权机关披露您的信息以保存、使用或披露您的信息；\n
+•	我们认为为了调查和/或披露可能违反我们服务条款的行为或执行这些服务条款，有必要披露您的信息；\n
+•	您与我们的某一关联方或合作伙伴之间存在线上或线下（非互联网）关系（而我们与该关联方或合作伙伴之间亦存在某种关系），或曾访问链接或提及陪伴助手网站的我们的关联方或合作伙伴的网站，并已经通过该合作伙伴或关联方的程序或网站注册了陪伴助手的在线服务；或\n
+•	随着我们业务的持续发展，我们有可能进行合并、收购、资产转让等交易，我们将告知您相关情形，按照法律法规及不低于本条款所要求的标准继续保护或要求新的控制者继续保护您的个人信息。\n
+您的权利\n
+在您使用陪伴助手软件期间，为了更加便捷地访问、修改、删除您个人信息，同时保障您撤回对个人信息使用的同意及注销帐号的权利，请登录小达人官网帐户设置进行操作。\n
+通过陪伴助手共享信息\n
+陪伴助手软件有一系列的协作功能，当您使用这些功能与他人协作（帮助别人或者取得帮助）时，您提供给陪伴助手的某些个人信息，包括您的陪伴助手用户状态，可能会显示予其它用户；\n
+Cookies与同类技术\n
+1.Cookies\n
+您使用我们的服务时，我们会在您的计算机或移动设备上存储名为 cookies的小数据文件。cookies通常包含标识符、站点名称以及一些号码和字符。我们使用该等信息判断注册用户是否已经登录、记录用户偏好、提升服务/产品质量及优化用户体验。如您不希望个人信息保存在 cookies中，您可对浏览器进行配置，选择禁用cookies功能。禁用cookies功能后，可能影响您访问陪伴助手或不能充分取得陪伴助手提供的服务。\n
+小达人不会将cookies用于本政策所述目的之外的任何用途。您可根据自己的偏好管理或删除cookies。您可以清除计算机上保存的所有cookies，大部分网络浏览器都设有阻止cookies的功能。\n
+陪伴助手可能允许在我们的部分网页上做广告的第三方业务合作伙伴在您的电脑中保存它们自己的cookies。这些业务合作伙伴无权存取陪伴助手的cookies，而它们的使用受其自身隐私条款的约束。\n
+我们从您的设备上收集了专门的广告跟踪标识符（广告标识符或苹果设备上的“IDFA”及谷歌广告ID或安卓设备上的“援助”）。这些标识符是您设备的唯一标识，但您可以重新设置它们或通过您的设备限制其使用。这些标识符不包含您的姓名或电子邮件地址。我们使用这些广告跟踪标识符与我们的分析技术相结合，以便提醒我们有针对性的广告活动。\n
+我们将不时与第三方网络广告商合作，这些网络广告商使用cookies和类似的技术以收集关于您访问小达人网站的网页和在该等网页上动作的信息，您使用陪伴助手应用，以及您是否打开我们发送给您的电子邮件等信息。我们这样做是为了日后（例如当您在访问第三方网站时）向您宣传相关的陪伴助手产品和服务，以及衡量我们讯息的效果。在这个过程中，我们不会同第三方分享您的任何个人信息（比如您的名字或电子邮箱）或帐户内容。\n
+小达人还会采用一些技术来帮您最大限度地利用陪伴助手服务。我们的系统会自动分析您的数据，增强陪伴助手的一些特有功能，例如“搜索”和“推荐内容”。利用“推荐内容”功能，陪伴助手服务使用多种技术来向您显示相关内容。显示的内容可能包括来自您自己账户的内容以及您选择接收的第三方内容，“推荐内容”绝不是广告内容。这些功能会自动进行，不涉及任何亲连助手的人员查看您的内容的功能。我们相信这些功能会提升您的服务使用体验。“推荐内容”在提供该功能的应用程序中默认为开启，但是您可以选择将其关闭。利用“推荐内容”功能，陪伴助手服务使用多种技术来向您显示相关内容。显示的内容可能包括来自您与家人分享的内容以及您选择接收的第三方内容。此外，通过检测您在帐户中的特定操作（例如，经常浏览的商品内容），我们可能会为您推荐陪伴助手产品或者服务功能，使您从我们的服务中获得最多。我们不会以任何宣传为目的而阅读或与任何人分享您的个人信息及内容\n
+2.设备权限调用\n
+陪伴助手在提供服务的过程中，可能需要您开通一些设备访问权限，例如通知、相册、相机、手机通讯录、蓝牙等。您也可以在设备的设置功能中随时选择关闭部分或者全部权限，从而拒绝陪伴助手收集相应的个人信息。关闭相关权限后，可能影响您访问陪伴助手或不能充分取得陪伴助手提供的服务。在不同设备中，权限显示方式及关闭方式可能有所不同，具体请参考设备及系统开发方说明或指引。\n
+个人信息的保护和安全措施\n
+小达人致力于保护您的信息安全，并为此采取合理的预防措施。我们采取互联网业内标准做法来保护您的个人信息，防止信息遭到未经授权访问、披露、使用、修改、损坏或丢失。我们会采取一切合理可行的措施，保护您的个人信息。\n
+首先，我们会采取一切合理可行的措施，确保未收集与陪伴助手提供的服务无关的个人信息。\n
+其次，我们采用以下措施保护我们收集到的个人信息。\n
+1.技术措施\n
+（1）我们的网络服务采取了符合行业标准的加密技术来保护您在传输过程中的数据，该技术通常被称为传输层安全（“TLS”）技术或安全套接层（“SSL”）技术，通过https等方式提供浏览服务，确保用户数据在传输过程中的安全。但是，互联网数据传输无法保证100%的安全，因此，我们无法保证在您和我们之间的传输过程中信息的安全；因此，请您理解，由于技术的限制以及可能存在的各种恶意手段，在互联网行业，不可能始终保证信息百分之百的安全。您需要了解，您接入我们的服务所用的系统和通讯网络，有可能因我们可控范围外的因素而出现问题。\n
+（2）一旦收到您的数据，我们将通过行政、物理以及逻辑安全相结合的方式确保其在我们服务器上的安全。\n
+（3）在个人信息使用时，我们会采用包括内容替换、加密脱敏等多种数据脱敏技术增强个人信息在使用中安全性。\n
+（4）设立严格的数据使用和访问制度，采用严格的数据访问权限控制和多重身份认证技术保护个人信息，避免数据被违规使用。\n
+（5）采取专门的数据和技术安全审计，设立日志审计和行为审计多项措施。\n
+（6）为保护您的帐户及服务功能，我们的自动系统会分析您从陪伴助手服务帐户中发出或接收的邮件，来监测垃圾邮件、恶意软件或其它潜在的安全问题及可能影响邮件送达的行为。\n
+2.管理措施\n
+（1）建立数据安全管理规范、数据安全开发规范来管理规范个人信息的存储和使用。\n
+（2）加强安全意识教育。我们不定期举办安全和隐私保护培训，加强员工对于保护个人信息重要性的认识。\n
+（3）我们在中华人民共和国境内收集和产生的个人信息和重要数据将存储在中华人民共和国境内。由于我们可能通过遍布全球的资源和服务器提供产品或服务，因此在获得您的授权同意后，您的个人信息可能会被转移到您使用产品或服务所在国家/地区的境外管辖区，或者受到来自这些管辖区的访问，我们会确保您的个人信息得到在中国境内足够同等的保护。\n
+（4）我们仅会在达到本政策所述目的所必需的时限内保存您的个人信息，但为了遵守适用的法律法规、法院判决或裁定、其他有权机关的要求、维护公共利益等目的，我们可能会将个人信息保存时间予以适当延长。\n
+3.个人信息安全事件处理\n
+（1）如发生个人信息引发的安全事件，我们将按照法律法规的要求，及时以邮件、信函、电话、推送通知等方式向您告知安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自主防范和降低风险的建议、对您的补救措施等；同时，我们还将按照监管部门的要求，主动上报个人信息安全事件的处置情况。\n
+（2）通过向全量用户发送通知提醒更改密码。我们将及时将事件相关情况以邮件、信函、电话、推送通知等方式告知您，难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告，避免进一步的数据泄露。\n
+需要注意的时，尽管已经采取了上述合理有效措施，并已经遵守了相关法律规定要求的标准，但小达人仍然无法保证您的个人信息通过不安全途径进行交流时的安全性。例如，存储于安装在您的电脑设备上的陪伴助手软件中的信息的安全取决于您对您的电脑设备的安全功能的使用。因此，我们建议您采取适当的措施，以保证使用我们应用程序和服务的电脑设备的安全性。如定期修改账号密码、不使用与其他服务相同的密码、不将自己的账号密码等个人信息透露给他人等。\n
+您理解并同意，陪伴助手提供的个人信息保护措施仅适用于陪伴助手相关服务，一旦您离开该平台，浏览或使用其他网站、服务及内容资源，我们即没有能力及义务保护您在陪伴助手以外的网络环境使用的任何个人信息，无论您登录或浏览的网络资源是否源于陪伴助手的链接或引导。\n
+外部链接\n
+小达人网站及服务可能包含其他网站的链接。对于我们的网站所链接之网站所采用的隐私条款或其他做法，以及该等网站上含有的信息或内容，小达人概不负责。本隐私条款仅适用于小达人网站及服务收集的信息，不适用于其他网站。\n
+信息删除\n
+您可以随时删除陪伴助手内容，也可以随时停止使用陪伴助手服务。如果您停用账户，您帐户中的内容将不会被删除，除非您在停用帐户之前，有意删除这些信息并同步您的帐户。欲了解如何删除笔记内容或取消帐户及帐户资格，请点击此处xxxxx（链接）。如果您删除陪伴助手上的信息和资料，然后才将您的帐户同步，则您或其他有权存取服务的人均不再能再存取这些数据，但由于有关系统运行的特性，您删除的内容的残余副本可能继续在陪伴助手服务的备份和存档系统中被保留最多一年。\n
+通知与更新\n
+本隐私条款可能不时被更新，我们将在网站发布变更内容，也可能选择使用您同帐户关联的提供给我们的电子邮件地址发送、在用户登录软件系统时或更新软件版本并在用户使用时等向您发送变更通知。您应定期查看以了解我们保护所收集之个人信息的方案及程序。隐私条款条款变更后，您有权选择接受更新的隐私条款或停止使用我们的软件及服务。如果您继续使用印象笔记提供的软件或服务，即视为您已接受修改后的隐私条款。\n
+联系我们\n
+欢迎您对本隐私条款和我们的服务条款提出意见。如有任何问题、意见或疑虑，请通过小达人网站xxx联系我们，您也可以将您的问题发送至xx邮箱或寄信至如下地址：\n
+小达人智能科技有限公司\n
+深圳市龙岗区天安数码城1栋A座402\n
+邮编：518100\n
+</string>
+
+</resources>

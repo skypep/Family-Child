@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEF1FA"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <include layout="@layout/main_action_view"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:paddingTop="@dimen/vertical_margin"
+            android:paddingBottom="@dimen/vertical_margin"
+            android:paddingLeft="@dimen/horizontal_margin_m"
+            android:gravity="center_vertical"
+            android:background="@color/activity_normal_bg_color"
+            >
+
+            <com.toro.helper.view.RoundnessImageView
+                android:id="@+id/head_img"
+                android:layout_width="@dimen/photo_list_head_photo_size_l"
+                android:layout_height="@dimen/photo_list_head_photo_size_l"
+                android:scaleType="fitCenter"
+                android:layout_centerVertical="true"
+                />
+
+            <TextView
+                android:id="@+id/edit_head_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/text_size_xl"
+                android:text="@string/fix_head"
+                android:textColor="#000000"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:gravity="center_vertical"
+            android:background="@color/activity_normal_bg_color"
+            >
+            <TextView
+                android:paddingLeft="@dimen/horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#686868"
+                android:textSize="@dimen/text_size_m"
+                android:text="@string/nick_name"
+                />
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:background="@drawable/edit_shape_top"
+                android:layout_marginLeft="@dimen/horizontal_margin"
+                android:layout_marginRight="@dimen/horizontal_margin"
+                android:hint="@string/nick_name"
+                android:textSize="18dp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1sp"
+                android:background="@color/main_tab_normal_color"
+                />
+
+            <TextView
+                android:paddingLeft="@dimen/horizontal_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D2D2D2"
+                android:textSize="@dimen/text_size_m"
+                android:text="@string/user_account"
+                />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="8dp"
+                android:background="@drawable/edit_shape_top"
+                android:layout_marginLeft="@dimen/horizontal_margin"
+                android:layout_marginRight="@dimen/horizontal_margin"
+                android:inputType="number"
+                android:hint="@string/phone_number_hint"
+                android:enabled="false"
+                android:textSize="18dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="@string/confirm"
+            android:background="@drawable/main_button"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:textColor="#FFFFFF"
+            android:enabled="false"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/toro_progress_layout"/>
+
+</RelativeLayout>

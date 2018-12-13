@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    >
+
+    <com.toro.helper.view.RoundnessImageView
+        android:id="@+id/head_img"
+        android:layout_width="@dimen/photo_list_head_photo_size_m"
+        android:layout_height="@dimen/photo_list_head_photo_size_m"
+        android:paddingTop="@dimen/vertical_margin"
+        android:paddingBottom="@dimen/vertical_margin"
+        android:scaleType="fitCenter"
+        />
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/horizontal_margin_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/poi_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="100dp"
+            android:maxWidth="180dp"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size_l"
+            />
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_size_m"
+            android:text="08.02 16:44"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

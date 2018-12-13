@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="copy_right_text_size">12dp</dimen>
+    <dimen name="app_name_text_size">20dp</dimen>
+    <dimen name="action_title_text_size">16dp</dimen>
+
+    <dimen name="vertical_margin">20dp</dimen>
+    <dimen name="vertical_margin_m">5dp</dimen>
+    <dimen name="vertical_margin_l">10dp</dimen>
+    <dimen name="vertical_margin_xl">15dp</dimen>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="horizontal_margin_m">8dp</dimen>
+    <dimen name="margin_m">8dp</dimen>
+
+
+    <dimen name="action_bar_heitht">60dp</dimen>
+    <dimen name="action_bar_image_height">35dp</dimen>
+
+    <dimen name="text_size_m">16dp</dimen>
+    <dimen name="text_size_l">18dp</dimen>
+    <dimen name="text_size_xl">20dp</dimen>
+    <dimen name="text_size_xxl">25dp</dimen>
+    <dimen name="text_size_xxxl">30dp</dimen>
+
+    <dimen name="photo_list_head_photo_size_m">40dp</dimen>
+    <dimen name="photo_list_head_photo_size_l">60dp</dimen>
+    <dimen name="photo_list_photo_offset">5dp</dimen>
+
+    <dimen name="action_bar_height">60dp</dimen>
+</resources>

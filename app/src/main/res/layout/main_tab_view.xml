@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:toro="http://schemas.android.com/apk/res/com.toro.helper"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/action_bar_heitht"
+    android:background="@color/main_tab_bg_color"
+    android:orientation="horizontal" >
+
+    <com.toro.helper.view.ChangeColorIconWithTextView
+        android:id="@+id/id_indicator_one"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        toro:icon="@mipmap/icon_tab_photo"
+        toro:text="@string/main_tab_photo_text"
+        toro:text_size="12sp"
+        toro:color="@color/main_tab_selected_color"
+        toro:normalColor="@color/main_tab_normal_color"
+        />
+
+    <com.toro.helper.view.ChangeColorIconWithTextView
+        android:id="@+id/id_indicator_two"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        toro:icon="@mipmap/icon_tab_helper"
+        toro:text="@string/main_tab_helper_text"
+        toro:text_size="12sp"
+        toro:color="@color/main_tab_selected_color"
+        toro:normalColor="@color/main_tab_normal_color"
+        />
+
+    <com.toro.helper.view.ChangeColorIconWithTextView
+        android:id="@+id/id_indicator_three"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        toro:icon="@mipmap/icon_tab_market"
+        toro:text="@string/main_tab_market_text"
+        toro:text_size="12sp"
+        toro:color="@color/main_tab_selected_color"
+        toro:normalColor="@color/main_tab_normal_color"
+        />
+
+    <com.toro.helper.view.ChangeColorIconWithTextView
+        android:id="@+id/id_indicator_four"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        toro:icon="@mipmap/icon_tab_me"
+        toro:text="@string/main_tab_me_text"
+        toro:text_size="12sp"
+        toro:color="@color/main_tab_selected_color"
+        toro:normalColor="@color/main_tab_normal_color"
+        />
+</LinearLayout>

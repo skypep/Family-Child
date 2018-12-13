@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F7FE"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/normal_card_background_shape"
+        android:layout_marginLeft="@dimen/horizontal_margin_m"
+        android:layout_marginRight="@dimen/horizontal_margin_m"
+        android:layout_marginTop="@dimen/vertical_margin_m"
+        android:paddingTop="@dimen/vertical_margin"
+        android:paddingBottom="@dimen/vertical_margin"
+        android:paddingLeft="@dimen/horizontal_margin_m"
+        android:paddingRight="@dimen/horizontal_margin_m"
+        >
+
+        <com.toro.helper.view.RoundnessImageView
+            android:id="@+id/head_img"
+            android:layout_width="@dimen/photo_list_head_photo_size_l"
+            android:layout_height="@dimen/photo_list_head_photo_size_l"
+            android:paddingTop="@dimen/vertical_margin"
+            android:paddingBottom="@dimen/vertical_margin"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            />
+
+        <ImageView
+            android:id="@+id/edit_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/edit_icon"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|left"
+            android:layout_toLeftOf="@+id/edit_image"
+            android:layout_toRightOf="@+id/head_img"
+            android:paddingLeft="@dimen/horizontal_margin"
+            android:orientation="vertical"
+            >
+            
+            <TextView
+                android:id="@+id/name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_xxl"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:id="@+id/phone_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_m"
+                android:textColor="#858D97"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/horizontal_margin_m"
+        android:layout_marginRight="@dimen/horizontal_margin_m"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:background="@drawable/normal_card_background_shape"
+        android:orientation="vertical"
+        android:divider="@color/main_tab_normal_color"
+        android:showDividers="middle"
+        >
+
+        <include layout="@layout/setting_item" android:id="@+id/setting_item1"/>
+        <include layout="@layout/setting_item" android:id="@+id/setting_item2"/>
+        <include layout="@layout/setting_item" android:id="@+id/setting_item3"/>
+        <include layout="@layout/setting_item" android:id="@+id/setting_item4"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

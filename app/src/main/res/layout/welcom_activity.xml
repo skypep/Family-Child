@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/welcom_bg_color"
+    tools:context=".activity.WelcomActivity">
+
+    <TextView
+        android:id="@+id/copy_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_copy_right"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/copy_right_text_size"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/vertical_margin"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/copy_right"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/welcom_logo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/app_name_text_size"
+            android:text="@string/app_name"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

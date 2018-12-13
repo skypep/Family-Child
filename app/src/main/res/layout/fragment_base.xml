@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.toro.helper.view.MainActionBar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_action_view"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/activity_normal_bg_color"
+    >
+
+    <TextView
+        android:id="@+id/action_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/action_title_text_size"
+        android:text="@string/app_name"
+        />
+
+
+</com.toro.helper.view.MainActionBar>

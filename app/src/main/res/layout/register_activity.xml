@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SmsCodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/activity_normal_bg_color"
+        android:orientation="vertical"
+        >
+        <include layout="@layout/main_action_view"/>
+
+        <EditText
+            android:id="@+id/edit_phone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_shape_top"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:inputType="number"
+            android:hint="@string/phone_number_hint"
+            android:textSize="18dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:background="@color/main_tab_normal_color"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            >
+
+            <EditText
+                android:id="@+id/scode_edit"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:background="@drawable/edit_shape_botton"
+                android:inputType="number"
+                android:hint="@string/s_code"
+                android:textSize="18dp"
+                />
+            <TextView
+                android:id="@+id/get_s_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_m"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/horizontal_margin"
+                android:textColor="@color/blue_text_color"
+                android:text="@string/get_s_code"
+                />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:background="@color/main_tab_normal_color"
+            />
+
+        <com.toro.helper.view.CustomEditText
+            android:id="@+id/pwd_edit1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_shape_top"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:inputType="textPassword"
+            android:hint="@string/login_pwd_hint"
+            android:drawableRight="@mipmap/pwd_trans_hide"
+            android:textSize="18dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1sp"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:background="@color/main_tab_normal_color"
+            />
+
+        <com.toro.helper.view.CustomEditText
+            android:id="@+id/pwd_edit2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:background="@drawable/edit_shape_top"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:inputType="textPassword"
+            android:hint="@string/confirm_pwd"
+            android:drawableRight="@mipmap/pwd_trans_hide"
+            android:textSize="18dp"
+            />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:text="@string/login_register"
+            android:background="@drawable/main_button"
+            android:layout_marginLeft="@dimen/horizontal_margin"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:textColor="#FFFFFF"
+            android:enabled="false"
+            />
+    </LinearLayout>
+
+    <include layout="@layout/toro_progress_layout"/>
+
+</RelativeLayout>

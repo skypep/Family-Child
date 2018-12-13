@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">VersionCheckLib</string>
+    <string name="versionchecklib_confirm">Sure</string>
+    <string name="versionchecklib_cancel">Cancel</string>
+    <string name="versionchecklib_retry">Retry</string>
+    <string name="versionchecklib_download_fail_retry">Download failed or retry？</string>
+    <string name="versionchecklib_download_finish">Download completed, click to install</string>
+    <string name="versionchecklib_downloading">Downloading...</string>
+    <string name="versionchecklib_check_new_version">New version detected</string>
+    <string name="versionchecklib_download_progress">Download progress:%d%%/100%%</string>
+    <string name="versionchecklib_download_fail">Download failed, click to try again</string>
+    <string name="versionchecklib_progress">%d/100</string>
+    <string name="versionchecklib_write_permission_deny">Download the installation package requires read and write file permissions。</string>
+    <string name="versionchecklib_download_apkname">%s.apk</string>
+    <string name="check_new_version">New version detected</string>
+</resources>

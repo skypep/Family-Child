@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/activity_normal_bg_color">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/vertical_margin_m"
+        android:paddingBottom="@dimen/vertical_margin_m"
+        >
+        
+        <com.toro.helper.view.RoundnessImageView
+            android:id="@+id/head_img"
+            android:layout_width="@dimen/photo_list_head_photo_size_m"
+            android:layout_height="@dimen/photo_list_head_photo_size_m"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="@dimen/horizontal_margin"
+            android:layout_centerVertical="true"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/right_layout"
+            >
+
+            <ImageView
+                android:id="@+id/action_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/icon_in"
+                />
+
+            <ImageView
+                android:id="@+id/action_selecte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/head_img"
+            android:layout_toLeftOf="@+id/right_layout"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_xl"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#AFB0B0"
+                android:textSize="@dimen/text_size_m"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/mRemindTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#007AFF"
+        android:textSize="14dp"
+        android:text="提到了：李明平，龙小瑶,芬手动阀,发送到,答复,沙发,阿斯蒂芬"
+        tools:text="提到了：李明平，龙小瑶,芬手动阀,发送到,答复,沙发,阿斯蒂芬" />
+
+
+</LinearLayout>

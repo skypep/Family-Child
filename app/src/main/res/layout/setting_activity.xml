@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:divider="@color/main_tab_normal_color"
+    android:showDividers="middle"
+    android:background="@color/activity_normal_bg_color"
+    >
+
+    <include layout="@layout/main_action_view"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_m"
+        >
+
+        <FrameLayout
+            android:id="@+id/right_layout_1"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/toro_switch"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/item_text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/right_layout_1"
+            android:textSize="@dimen/text_size_xl"
+            android:layout_centerVertical="true"
+            android:textColor="#000000"
+            android:text="@string/setting_wifi_connect"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_m"
+        >
+
+        <FrameLayout
+            android:id="@+id/right_layout_2"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/toro_switch"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/item_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/right_layout_2"
+            android:textSize="@dimen/text_size_xl"
+            android:textColor="#000000"
+            android:layout_centerVertical="true"
+            android:text="@string/setting_sound_hint"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/about_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="@dimen/margin_m"
+        >
+
+        <ImageView
+            android:id="@+id/action_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/icon_in"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/horizontal_margin_m"
+            />
+
+        <TextView
+            android:id="@+id/item_text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/action_in"
+            android:textSize="@dimen/text_size_xl"
+            android:textColor="#000000"
+            android:layout_centerVertical="true"
+            android:text="@string/about_app"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:text="@string/login_out"
+        android:background="@drawable/main_button"
+        android:layout_marginLeft="@dimen/horizontal_margin"
+        android:layout_marginRight="@dimen/horizontal_margin"
+        android:textColor="#FFFFFF"
+        />
+
+
+</LinearLayout>
